@@ -11,4 +11,14 @@ module.exports = {
 
     return config
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'files.stripe.com',
+        port: '',
+        pathname: '/links/**'
+      }
+    ]
+  }
 }
